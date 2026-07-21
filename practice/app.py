@@ -16,4 +16,8 @@ app = Flask(__name__)
 # return은 응답데이터
 def hello_world():
     # 웹사이트 문자열
-    return "안녕하세요!"
+    return """
+웹사이트 제목
+웹사이트 중제목
+웹사이트 소제목
+"""
